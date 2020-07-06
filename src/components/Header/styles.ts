@@ -15,13 +15,16 @@ export const Container = styled.div<ContainerProps>`
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    flex: 1;
+    max-width: 700px;
     nav {
       a {
         color: #fff;
         text-decoration: none;
         font-size: 16px;
         transition: opacity 0.2s;
+        margin: 0 auto;
+        
 
         & + a {
           margin-left: 32px;
